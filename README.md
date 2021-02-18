@@ -23,8 +23,8 @@ Install: npm i -g vue-type-check
 
 Usage: vue-type-check or vtc
 Options:
-  --workspace        path to your workspace, required
-  --srcDir           path to the folder which contains your Vue components, will fallback to the workspace when not passed
+  --workspace        path to your workspace, required 项目根目录
+  --srcDir           path to the folder which contains your Vue components, will fallback to the workspace when not passed src文件夹
   --onlyTemplate     whether to check the script code in a single file component
 ```
 
